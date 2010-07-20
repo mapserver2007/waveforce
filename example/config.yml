@@ -1,0 +1,6 @@
+host: hostname or ipaddress
+passwd: your password for growl
+log: /path/to/log
+db: /path/to/dbfile
+response_border: number of response border
+icon: url or path
