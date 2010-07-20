@@ -10,12 +10,12 @@ require 'timeout'
 module WaveForce
   class << self
     def config=(params)
-      @log = WaveForce::Log.new(params[:log], 1)
       if params[:config]
         @params = WaveForce::Util.load(params[:config])
       else
         @params = params
       end
+      @log = WaveForce::Log.new(params[:log], 1)
       @params[:app_name] = APP_NAME
     end
 
