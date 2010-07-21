@@ -43,8 +43,7 @@ module WaveForce
         timeout(NOTIFY_TIMEOUT) do
           GNTP.notify(params)
           channel, program = params[:text].split(/\s-\s/)
-          @log.info("channel：" + channel)
-          @log.info("program：" + program)
+          @log.info(channel + ' - ' + program)
         end
         result = true
       # ホスト、パスワード、アイコンパスのいずれかが間違っている場合
