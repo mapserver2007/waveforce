@@ -15,7 +15,7 @@ module WaveForce
       else
         @params = params
       end
-      @log = WaveForce::Log.new(params[:log], 1)
+      @log = WaveForce::Log.new(@params[:log], 1)
       @params[:app_name] = APP_NAME
     end
 
