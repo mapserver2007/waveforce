@@ -15,7 +15,7 @@ Generate and install the gem, execute a command.
 
 === Gem Installation
 
-	gem install waveforce
+  gem install waveforce
 
 == How to use
 
